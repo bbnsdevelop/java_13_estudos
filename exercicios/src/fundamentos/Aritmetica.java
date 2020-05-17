@@ -11,7 +11,7 @@ public class Aritmetica {
 		int seven = 7;
 		int ten = 10;
 		
-		double result =  ( powTrhee(trhee, parteOne(six, two, trhee) - parteTwo(one, five, two, seven) ) ) / Math.pow(ten, 3);
+		double result =  ( powTrhee(trhee, parteOne(six, two, trhee) - parteTwo(one, five, two, seven) ) ) / Math.pow(ten, trhee);
 		
 		System.out.println(result);
 	}
