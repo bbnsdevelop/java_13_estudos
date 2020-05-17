@@ -1,4 +1,4 @@
-package fundamentos;
+package br.com.fundamentos;
 
 import java.util.Date;
 

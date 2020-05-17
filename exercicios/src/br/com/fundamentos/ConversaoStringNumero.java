@@ -1,4 +1,4 @@
-package fundamentos;
+package br.com.fundamentos;
 
 import javax.swing.JOptionPane;
 

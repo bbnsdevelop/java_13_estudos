@@ -1,4 +1,4 @@
-package fundamentos;
+package br.com.fundamentos;
 
 public class AreaCircunferencia {
 	private static final double PI = 3.14159;

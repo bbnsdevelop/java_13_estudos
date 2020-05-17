@@ -1,4 +1,4 @@
-package devedojo;
+package br.com.devedojo;
 
 public class CalculardoraDiferencaIdade {
 	
