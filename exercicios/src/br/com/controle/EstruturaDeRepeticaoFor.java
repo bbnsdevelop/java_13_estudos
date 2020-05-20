@@ -24,6 +24,11 @@ public class EstruturaDeRepeticaoFor {
 		for (int i = 10; i >= 0; i -=2) {
 			System.out.println("numeros decrescente: " + i);
 		}
+		
+		for (String v ="#"; !v.equals("#####"); v +="#") {
+			System.out.println(v);
+			
+		}
 
 	}
 
