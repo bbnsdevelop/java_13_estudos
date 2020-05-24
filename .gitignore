@@ -13,7 +13,6 @@
 # Package Files #
 *.class
 *.classpath
-*.project
 *.jar
 *.war
 *.nar
