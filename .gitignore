@@ -12,6 +12,7 @@
 */.settings/
 # Package Files #
 *.class
+*.classpath
 *.jar
 *.war
 *.nar
