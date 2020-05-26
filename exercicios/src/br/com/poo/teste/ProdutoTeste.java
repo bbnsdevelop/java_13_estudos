@@ -24,6 +24,11 @@ public class ProdutoTeste {
 		p1.mostarProduto(p1Desconto);
 		p2.mostarProduto(p2Desconto);
 		
+		Produto p3 = new Produto("teclado", 50, 0.08);
+		Double p3Desconto = p3.applicarDesconto();
+		p3.mostarProduto(p3Desconto);
+		total += p3Desconto;
+		
 		System.out.printf("Total do carrinho = R$%.2f", total);
 	}
 }
