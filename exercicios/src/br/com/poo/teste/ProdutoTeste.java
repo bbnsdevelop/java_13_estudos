@@ -9,13 +9,13 @@ public class ProdutoTeste {
 
 		p1.nome = "Notebook";
 		p1.preco = 4359.89;
-		p1.desconto = 0.25;
+		//p1.desconto = 0.25;
 
 		Produto p2 = new Produto();
 
 		p2.nome = "Caneta";
 		p2.preco = 12.56;
-		p2.desconto = 0.29;
+		//p2.desconto = 0.29;
 
 		Double p1Desconto = p1.applicarDesconto();
 		Double p2Desconto = p2.applicarDesconto();
@@ -24,7 +24,7 @@ public class ProdutoTeste {
 		p1.mostarProduto(p1Desconto);
 		p2.mostarProduto(p2Desconto);
 		
-		Produto p3 = new Produto("teclado", 50, 0.08);
+		Produto p3 = new Produto("teclado", 50);
 		Double p3Desconto = p3.applicarDesconto();
 		p3.mostarProduto(p3Desconto);
 		total += p3Desconto;
