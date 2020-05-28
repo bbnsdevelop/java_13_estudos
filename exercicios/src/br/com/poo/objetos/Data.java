@@ -7,9 +7,7 @@ public class Data {
 	public int ano;
 
 	public Data() {
-		this.dia = 1;
-		this.mes = 1;
-		this.ano = 1970;
+		this(1,1,1970);		
 	}
 	
 	public Data(int dia, int mes, int ano) {
