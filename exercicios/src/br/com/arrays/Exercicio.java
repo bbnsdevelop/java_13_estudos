@@ -28,6 +28,9 @@ public class Exercicio {
 			total2 += notasAlunoB[i];			
 		}
 		System.out.println("Media: " + total2 / notasAlunoB.length);
-		
+	
+		for (double d : notasAlunoB) {
+			System.out.println(d);
+		}
 	}
 }
