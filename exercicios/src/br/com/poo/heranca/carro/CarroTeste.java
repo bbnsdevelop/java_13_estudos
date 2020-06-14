@@ -18,21 +18,24 @@ public class CarroTeste {
 
 		System.out.println("----------------------------------");
 		
-		carro = new Ferrari();
-		carro.ligar();
+		Ferrari ferrari = new Ferrari();
+		ferrari.ligar();
+				
+		System.out.println("Velocidade atual: "+ ferrari.velocidadeAtual);
+		ferrari.acelerar();
+		ferrari.acelerar();		
+		System.out.println("Velocidade atual: "+ ferrari.velocidadeAtual);	
 		
-		System.out.println("Velocidade atual: "+ carro.velocidadeAtual);
-		carro.acelerar();
-		carro.acelerar();		
+		ferrari.ligarTurbo();
+		System.out.println("Velocidade atual com turbo: "+ ferrari.velocidadeAtual);		
 		
-		System.out.println("Velocidade atual: "+ carro.velocidadeAtual);		
+		ferrari.frear();
+		ferrari.desligarTurbo();
+		System.out.println("Velocidade atual: "+ ferrari.velocidadeAtual);
+		ferrari.frear();
+		ferrari.frear();
 		
-		carro.frear();
-		System.out.println("Velocidade atual: "+ carro.velocidadeAtual);
-		carro.frear();
-		carro.frear();
-		carro.frear();
-		System.out.println("Velocidade atual: "+ carro.velocidadeAtual);
+		System.out.println("Velocidade atual: "+ ferrari.velocidadeAtual);
 		
 		
 		

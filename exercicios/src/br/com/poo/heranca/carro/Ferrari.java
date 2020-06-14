@@ -1,6 +1,6 @@
 package br.com.poo.heranca.carro;
 
-public class Ferrari extends Carro{
+public class Ferrari extends Carro implements Esportivo{
 	
 	
 	@Override
@@ -14,6 +14,16 @@ public class Ferrari extends Carro{
 			this.velocidadeAtual -= 15;
 		}
 		
+	}
+
+	@Override
+	public void ligarTurbo() {
+		this.velocidadeAtual += 50;
+	}
+
+	@Override
+	public void desligarTurbo() {
+		this.velocidadeAtual -= 20;
 	}
 
 }
