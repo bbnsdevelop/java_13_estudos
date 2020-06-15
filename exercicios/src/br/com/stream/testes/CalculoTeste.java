@@ -10,16 +10,15 @@ public class CalculoTeste {
 		// Note o polimorfismo gerado durante a excução do programa onde o objeto 'calculo'
 		// assumiu diversos comportamentos
 		
-		Calculo calculo = (x,y) -> x+y;		
+		Calculo calculo = (x,y) -> x + y;		
 		System.out.println("Soma: "+calculo.executar(6, 4));
 		
-		calculo = (x,y) -> x -y;
+		calculo = (x,y) -> x - y; // ----> polimorfismo
 		System.out.println("Subtração: "+calculo.executar(6, 4));
 		
 		calculo = (x,y) -> x * y;		
 		System.out.println("Multiplicação: "+ calculo.executar(5, 3));
-		
-		
+				
 		calculo = (x,y) ->{
 			if(x == 0) {
 				return 0;
