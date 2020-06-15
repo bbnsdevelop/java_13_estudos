@@ -2,8 +2,6 @@ package br.com.stream.testes;
 
 import java.util.function.BinaryOperator;
 
-import br.com.stream.interfacesFuncional.Calculo;
-
 public class CalculoTeste2 {
 	
 	
