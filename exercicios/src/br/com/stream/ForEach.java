@@ -15,7 +15,15 @@ public class ForEach {
 		
 		nomes.forEach(n ->System.out.println("Nome: " + n)); // Não precisa ter corpo quando tem apenas uma linha de código
 		
-		nomes.forEach(System.out::println); // Forma de referencia 
+		nomes.forEach(System.out::println); // Forma de referencia
+		
+		nomes.forEach(n -> meuImprimir(n));
+		
+		nomes.forEach(ForEach::meuImprimir); 
+	}
+	
+	static void meuImprimir(String nome) {
+		System.out.println("Meu nome é: " + nome);
 	}
 
 }
