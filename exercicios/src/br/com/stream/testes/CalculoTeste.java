@@ -13,7 +13,7 @@ public class CalculoTeste {
 		Calculo calculo = (x,y) -> x + y;		
 		System.out.println("Soma: "+calculo.executar(6, 4));
 		
-		calculo = (x,y) -> x - y; // ----> polimorfismo
+		calculo = (x,y) -> x - y; // ---->  polimorfismo
 		System.out.println("Subtração: "+calculo.executar(6, 4));
 		
 		calculo = (x,y) -> x * y;		
