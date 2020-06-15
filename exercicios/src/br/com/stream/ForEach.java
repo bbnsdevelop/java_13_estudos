@@ -15,7 +15,7 @@ public class ForEach {
 		
 		nomes.forEach(n ->System.out.println("Nome: " + n)); // Não precisa ter corpo quando tem apenas uma linha de código
 		
-		nomes.forEach(System.out::println); // Forma implicita 
+		nomes.forEach(System.out::println); // Forma de referencia 
 	}
 
 }
