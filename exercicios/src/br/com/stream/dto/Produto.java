@@ -3,8 +3,8 @@ package br.com.stream.dto;
 public class Produto {
 
 	private String nome;
-	private double preco;
-	private double desconto;
+	private Double preco;
+	private Double desconto;
 	
 	public Produto(String nome, double preco, double desconto) {
 		this.nome = nome;
@@ -20,17 +20,17 @@ public class Produto {
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
-	public double getPreco() {
+	public Double getPreco() {
 		return preco;
 	}
-	public void setPreco(double preco) {
+	public void setPreco(Double preco) {
 		this.preco = preco;
 	}
-	public double getDesconto() {
+	public Double getDesconto() {
 		return desconto;
 	}
 
-	public void setDesconto(double desconto) {
+	public void setDesconto(Double desconto) {
 		this.desconto = desconto;
 	}
 
