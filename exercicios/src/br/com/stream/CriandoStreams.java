@@ -9,7 +9,7 @@ public class CriandoStreams {
 	
 	public static void main(String[] args) {
 		Consumer<String> print = System.out::print;
-		Consumer<String> test = CriandoStreams::name;
+		Consumer<String> test = CriandoStreams::exibiNome;
 		test.accept("Bruno");
 		
 		Stream<String> linguagens = Stream.of("Java ", "Lua ", "JavaScript ", "Cobol \n");		
@@ -30,7 +30,7 @@ public class CriandoStreams {
 		
 	}
 	
-	public static void name(String nome) {
+	public static void exibiNome(String nome) {
 		System.out.println("por referencia " + nome);
 	}
 
